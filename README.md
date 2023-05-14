@@ -1,41 +1,51 @@
-# SAP-samples/repository-template
-This default template for SAP Samples repositories includes files for README, LICENSE, and .reuse/dep5. All repositories on github.com/SAP-samples will be created based on this template.
+# Get Started with SAP Cloud Application Programming (CAP), Fiori and HANA Cloud
 
-# Containing Files
-
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
-
-2. The .reuse/dep5 file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the .reuse/dep5 in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
-
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
-
-# [Title]
-<!-- Please include descriptive title -->
-
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-dc-samples)](https://api.reuse.software/info/github.com/SAP-samples/btp-dc-samples)
 
 ## Description
-<!-- Please include SEO-friendly description -->
+The goal of this mission is to create a simple Hello World application using SAPUI5 / SAP Fiori running on SAP Business Technology Platform (SAP BTP) leveraging SAP Business Application Studio (BAS), Cloud Foundry runtime, and SAP Launchpad Service.
 
-## Requirements
+This mission includes the following steps:
 
-## Download and Installation
-
-## Known Issues
-<!-- You may simply state "No known issues. -->
-
-## How to obtain support
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
+* Check the  **Prerequisites** 
+* Setup **SAP HANA Cloud** as production database
+* Setup your **SAP Launchpad Service** - to give you access to create and configure the central point of entry for your users.
+* Setup your **SAP Business Application Studio** - to give you access to the development environment. 
+* Create a ***CAP app** - from the scratch within minutes.
+* Add a Fiori App to your CAP Project.
+* Deploy your CAP app to your BTP **Subaccount** and run it.
  
-For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
-## Contributing
-If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
+### Prerequisites
 
-## License
-Copyright (c) 2023 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
+The following requirements have to be met: 
+
+An SAP BTP Enterpise/trial account with entitlements for SAP HANA Cloud, Cloud Foundry Runtime, Business Application Studio and Launchpad Service.
+
+You can find  your SAP BTP Trial Account here: [Welcome to SAP BTP trial](https://cockpit.hanatrial.ondemand.com/trial/#/home/trial)
+
+You should be already familiar with setting up an account for Fiori development.
+
+### Get Started
+
+1. [Check the Prerequisites](docs/pages/bookshop/1_1_prerequisites.md)
+2. [Set SAP HANA Cloud](docs/pages/bookshop/1_3_setup_hana.md) 
+3. [Develop your first CAP application in minutes](docs/pages/bookshop/2_1_fast_cap_fiori.md)
+4. [Test it in hybrid environemnt](docs/pages/bookshop/2_2_test_hybrid.md)
+5. [Extend your CAP app](docs/pages/bookshop/3_1_extend_bookshop.md)
+6. [Delete or create Fiori apps](docs/pages/bookshop/3_2_create_fiori_app.md)
+7. [Extend your Fiori app](docs/pages/bookshop/3_3_extend_fiori.md)
+8. [Deploy it to the backend](docs/pages/bookshop/4_deploy_book.md)
+ 
+
+### Known Issues
+"No known issues.
+
+### How to obtain support
+[Create an issue](https://github.com/SAP-samples/btp-dc-samples/issues) in this repository if you find a bug.
+
+### Contributing
+Contribution is not planned for this repo.
+
+### License
+Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
