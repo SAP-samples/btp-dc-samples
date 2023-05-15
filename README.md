@@ -1,4 +1,4 @@
-# Get Started with SAP Cloud Application Programming (CAP), SAP Fiori, and SAP HANA Cloud
+# Get Started with SAP Cloud Application Programming (CAP), using SAP Fiori, and SAP HANA Cloud
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-dc-samples)](https://api.reuse.software/info/github.com/SAP-samples/btp-dc-samples)
 
