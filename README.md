@@ -3,7 +3,10 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-dc-samples)](https://api.reuse.software/info/github.com/SAP-samples/btp-dc-samples)
 
 ## Description
-The goal of this mission is to create a simple Hello World application using SAPUI5 / SAP Fiori running on SAP Business Technology Platform (SAP BTP) leveraging SAP Business Application Studio (BAS), Cloud Foundry runtime, and SAP Launchpad Service.
+The goal of this mission is to create a basic CAP application using data model, service and a Fiori application in SAP Business Application Studio.
+You will extend the CAP application and the Fiori to get a basic bookshop application. 
+Optionally you can deploy the application to on SAP Business Technology Platform (BTP) Cloud Foundry, using SAP HANA Cloud and HTML5 Repository from SAP Build Work Zone service. Once deployed on HANA cloud, you can use the backend database for hybrid testing.
+
 
 This mission includes the following steps:
 
