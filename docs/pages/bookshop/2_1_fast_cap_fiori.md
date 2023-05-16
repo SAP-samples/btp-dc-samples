@@ -127,7 +127,7 @@ The application router is needed for CAP projects if you want to add Fiori apps.
    Do not add xsuaa **after** you created your first Fiori app.
 
    ```
-   cds add xsuaa
+   cds add xsuaa --for production
    ```
    
    and run npm i to add the new packages:
@@ -138,7 +138,7 @@ The application router is needed for CAP projects if you want to add Fiori apps.
 
 2. Add xsuaa does the following changes:
  
-   - In file package.json it adds:
+   - In file package.json it adds additional dependencies:
 
      ```json
      "dependencies": {
@@ -147,7 +147,7 @@ The application router is needed for CAP projects if you want to add Fiori apps.
      },
      ```
      
-     and 
+     and in production profile:
      
      ```json
      "auth": {
@@ -155,7 +155,7 @@ The application router is needed for CAP projects if you want to add Fiori apps.
      }
      ```
   
-    - In file mta.yaml it adds:
+    - In file mta.yaml it adds name: uaa_bookshop:
 
       ```yaml
       requires:
@@ -163,14 +163,14 @@ The application router is needed for CAP projects if you want to add Fiori apps.
         - name: uaa_bookshop
       ``` 
   
-      and
+      and in parameters a new config part.
     
       ```yaml
       parameters:
         path: ./xs-security.json
         service: xsuaa
         service-name: bookshop-xsuaa-service
-        service-plan: application
+        service-plan: application 
         config:
           xsappname: bookshop-${org}-${space}
           tenant-mode: dedicated
