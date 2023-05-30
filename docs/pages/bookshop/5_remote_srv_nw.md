@@ -250,7 +250,7 @@ Time to test the new application
 
 6. On your service home page, click on Categories. Well done!
 
-   ´´´json
+   ```json
    {
       "@odata.context": "$metadata#Categories",
       "value": [
