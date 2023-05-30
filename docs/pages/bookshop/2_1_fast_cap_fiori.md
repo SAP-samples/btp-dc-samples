@@ -11,7 +11,7 @@ This tutorial guides you through the process of creating a CAP application, add 
 
 2. Click on **Create Dev Space** on the SAP Business Application Studio home page.
 
-3. Select **Full-Stack Application** and provide a name of your choice (for example, "productivity") in the upper left corner. <br>
+3. Select **Full-Stack Application** and provide a name of your choice (for example, "CAP") in the upper left corner. <br>
    Provide a name. This is the dev space stack you will use for modelling your new app. <br>
 
    ![Create Dev Space](images/fast/2_setup_1_devspace.png)
