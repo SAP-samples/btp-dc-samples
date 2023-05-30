@@ -254,15 +254,15 @@ Time to test the new application
    {
       "@odata.context": "$metadata#Categories",
       "value": [
-            {
-            "CategoryID": 1,
-            "CategoryName": "Beverages",
-            "Description": "Soft drinks, coffees, teas, beers, and ales"
-            },
-            {
-            "CategoryID": 2,
-
-            (...)
+           {
+           "CategoryID": 1,
+           "CategoryName": "Beverages",
+           "Description": "Soft drinks, coffees, teas, beers, and ales"
+           },
+           {
+           "CategoryID": 2,
+           
+           (...)
    ```
 
 
