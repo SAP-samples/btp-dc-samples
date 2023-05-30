@@ -193,9 +193,9 @@ Time to test the new application
 
    In addition the "requires" definition for `consumenorthwind-destination-service` is missing. **Replace** the requires section with
 
-      ```yaml
+   ```yaml
    modules:
-  - name: consumenorthwind-srv
+   - name: consumenorthwind-srv
     
     (...)
 
@@ -222,6 +222,7 @@ Time to test the new application
         "auth": "xsuaa"
       }
    ```
+   
    to
 
    ```json
