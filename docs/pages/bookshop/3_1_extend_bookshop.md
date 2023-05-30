@@ -147,7 +147,7 @@ This tutorial uses the classic text editor and checks the result in Storyboard.
        "@sap/cds-common-content": "^1.1.0",
        (...)
     },
-    ```
+   ```
 
 4. Optional: Explore the changes in Storyboard.
 
