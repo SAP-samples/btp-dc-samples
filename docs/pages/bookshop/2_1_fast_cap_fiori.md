@@ -38,7 +38,7 @@ This tutorial guides you through the process of creating a CAP application, add 
    Create a new project from command line:
 
    - In the menu bar, select "Terminal" --> "New Terminal".
-   - Make sure your are in your projects root folder: `/home/user/projects/`.
+   - Make sure you are in your projects root folder: `/home/user/projects/`.
    - In the terminal type 
       
       ```
@@ -63,7 +63,7 @@ This tutorial guides you through the process of creating a CAP application, add 
 
    Optional: Explore the generated files in bookshop/db and bookshop/srv
 
-5. For the production database, use SAP managed HANA database. It is important to add "--for production", otherwise CAP will not use its build-in in-memory database sqlite anymore in your development environment.
+5. For the production database, use SAP managed HANA database. It is important to add "--for production", otherwise CAP will not use its built-in in-memory database SQLite anymore in your development environment.
 
    ```
    cds add hana --for production
@@ -109,7 +109,7 @@ The application router is needed for CAP projects if you want to add Fiori apps.
 1. Right-click on the file **`mta.yaml`** of your bookshop project. <br>
    Select "Create MTA Module from Template". 
 
-2. A new template page opens, select Approuter Configuration and click **Start**.
+2. A new template page opens, select "Approuter Configuration" and click **Start**.
 
 3. Keep "Managed Approuter" (important) and provide a name for the Approuter. Select "Yes", you plan to add a Fiori UI.
 
@@ -120,10 +120,10 @@ The application router is needed for CAP projects if you want to add Fiori apps.
 
 ### Add XSUAA configuration
 
-1. Add **now** missing xsuaa dependencies. **Otherwise deployment will fail**.
+1. Add **now** missing xsuaa dependencies. **Otherwise, deployment will fail**.
     
    **Note**: do not add xsuaa before you added the managed application router. 
-   Otherwise the cds xsuaa configurations will be incompatible with Fiori Tools.
+   Otherwise, the cds xsuaa configurations will be incompatible with Fiori Tools.
    Do not add xsuaa **after** you created your first Fiori app.
 
    ```
@@ -213,7 +213,7 @@ The application router is needed for CAP projects if you want to add Fiori apps.
 
    Click "Next".
 
-7. In the next step "Deployment Configuration", provide:
+7. In the next step, "Deployment Configuration", provide:
 
    - **Please choose the target:** Cloud Foundry
    - **Destination name:** Local CAP Project API (Instance Based Destination)
@@ -221,7 +221,7 @@ The application router is needed for CAP projects if you want to add Fiori apps.
    Click "Finish". Wait until the files are generated...
 
 8. Run `cds watch` in terminal and open your "local" preview. <br>
-   You have a new entry in "Web Applications", your fiori app `/booksui/webapp/index.html`. <br>
+   You have a new entry in "Web Applications", your Fiori app `/booksui/webapp/index.html`. <br>
    Click on it. 
 
    In the Fiori app, click on **`Go`** to get the data. (this is how initial Fiori apps work)
@@ -269,7 +269,7 @@ The application router is needed for CAP projects if you want to add Fiori apps.
 8. Go to your Cloud Foundry Subaccount. Check that deployment was successful. <br>
    Open the Cloud Foundry **Space**, where you deployed your application to. <br>
 
-   Under Applications, you see 2 new entries. Don't start the bookshop-db-deployer. It's sole puprose is to deploy the bookshop schema with an HDI-Container.
+   Under Applications, you see 2 new entries. Don't start the bookshop-db-deployer. Its sole purpose is to deploy the bookshop schema with an HDI-Container.
 
    ![](images/fast/2_setup_9_newapps.png)
 
@@ -292,7 +292,7 @@ The application router is needed for CAP projects if you want to add Fiori apps.
     ![New Fiori app](images/fast/2_setup_8_newfiori.png)
 
 
-Congratulations! You have just finished your first CAP app with Fiori UI!
+Congratulations! You have just finished your first CAP app with an SAP Fiori UI!
 
 ### Appendix
 
