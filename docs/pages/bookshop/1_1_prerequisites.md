@@ -9,7 +9,7 @@ CAP-based projects benefit from a primary focus on domain, by capturing domain k
 
 ## Prerequisites
 
-Have a SAP BTP Subaccount with Business Application Studio (BAS).
+Have a SAP BTP Subaccount (Cloud Foundry Subaccount, not Neo!) with Business Application Studio (BAS).
 
 If you want to deploy your app in BTP Cloud Foundry:
 
