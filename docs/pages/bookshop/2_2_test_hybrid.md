@@ -104,7 +104,7 @@ If you run through the previous tutorial, you already have a running HANA instan
 2. Bind your HANA db with your project in BAS terminal
 
    ```shell
-    cds bind -2 bookshop-db:key
+   cds bind -2 bookshop-db:key
    ```
    The binding information is stored in the `.cdsrc-private.json` file of your project in the requires section.
 
