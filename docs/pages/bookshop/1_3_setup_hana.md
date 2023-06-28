@@ -105,7 +105,7 @@ If you create your HANA Cloud instance from your Cloud Foundry Space, you get yo
 
 ### Explore your SAP HANA instance
 
-1. Open your Subaccount --> Instance and Subscriptions. A new instance has been created. 
+1. Open your Subaccount and select "Instance and Subscriptions" in the left navigation pane. A new instance for SAP HANA Cloud has been created. 
 
 2. Click on it. This will open the **Database Overview**. <br>
    Switch the view to **All** as entry page. <br>
