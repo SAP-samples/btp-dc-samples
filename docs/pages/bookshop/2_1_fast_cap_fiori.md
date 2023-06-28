@@ -109,7 +109,7 @@ The application router is needed for CAP projects if you want to add Fiori apps.
 1. Right-click on the file **`mta.yaml`** of your bookshop project. <br>
    Select "Create MTA Module from Template". 
 
-2. A new template page opens, select "Approuter Configuration" and click **Start**.
+2. A new template page opens, select the module template **"Approuter Configuration"** and click **Start**.
 
 3. Keep "Managed Approuter" (important) and provide a name for the Approuter. Select "Yes", you plan to add a Fiori UI.
 
@@ -125,6 +125,8 @@ The application router is needed for CAP projects if you want to add Fiori apps.
    **Note**: do not add xsuaa before you added the managed application router. 
    Otherwise, the cds xsuaa configurations will be incompatible with Fiori Tools.
    Do not add xsuaa **after** you created your first Fiori app.
+   
+   Type in terminal of your project root:
 
    ```
    cds add xsuaa --for production
