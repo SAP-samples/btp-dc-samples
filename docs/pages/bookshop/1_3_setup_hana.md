@@ -105,22 +105,24 @@ If you create your HANA Cloud instance from your Cloud Foundry Space, you get yo
 
 ### Explore your SAP HANA instance
 
-1. Open your Subaccount and select "Instance and Subscriptions" in the left navigation pane. A new instance for SAP HANA Cloud has been created. 
+1. Open your Subaccount and select "Instance and Subscriptions" in the left navigation pane.
 
-2. Click on it. This will open the **Database Overview**. <br>
-   Switch the view to **All** as entry page. <br>
-   Check you have enough free ressources (which should be the case in a fresh instance with defaults).
+   A new instance for **SAP HANA Cloud** has been created. 
+
+3. Click on the SAP HANA Cloud instance. This will open the **Instances** Overview. <br>
 
    ![](images/hdbsetup/0_hanasetup_8_admin.png)
-
-
-3. Switch to your Space, where you installed HANA Cloud. <br>
    
-4. Click on "SAP HANA Cloud". Open the Database Explorer.
+   Click on your new instance (for example devhanainstance). Check you have enough free ressources (which should be the case in a fresh instance with defaults).
+
+
+4. Switch to your Space, where you installed HANA Cloud. <br>
+   
+5. Click on "SAP HANA Cloud". Open the Database Explorer.
 
    ![](images/hdbsetup/0_hanasetup_9_opendbexpl.png)
 
-5. You will only see the devhanainstance, which should not contain much artifacts.
+6. You will only see the devhanainstance, which should not contain much artifacts.
    In this exmple you see also an exmaple for a deployed HDI schema: "bookshop-db".
 
    ![](images/hdbsetup/0_hanasetup_10_dbexpl.png)
