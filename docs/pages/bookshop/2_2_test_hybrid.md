@@ -16,7 +16,7 @@ You can switch between local mock configuration and cloud service configuration 
 
 1. Open your Dev Space.
 
-2. Open **Cloud Foundry** in the activity bar or choose **View: Show Cloud Foundry** from Command Palette.
+2. Open **Cloud Foundry** in the BAS activity bar or choose from Command Palette **View: Show Cloud Foundry**.
 
 3. Click on **+** **Create Cloud Foundry Target**. 
 
