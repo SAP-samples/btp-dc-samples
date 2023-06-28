@@ -16,7 +16,7 @@ So far your bookshop application is quite basic. The following steps guide you t
    - **app** for the UIs, containing `/apps/booksui`
 
 
-4. Optional: Open the View "**CAP Data Models and Services**" in your BAS Explorer. It provides a dedicated CAP view on your project.
+4. Optional: Open the View "**Data Models and Services**" in your BAS Explorer. It provides a dedicated CAP view on your project.
    
 
 5. Open Storyboard. Open in BAS menu bar: "View" --> "Command Palette" and type **Open Storyboard**.
