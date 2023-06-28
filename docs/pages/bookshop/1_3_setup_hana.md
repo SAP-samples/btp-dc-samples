@@ -116,9 +116,9 @@ If you create your HANA Cloud instance from your Cloud Foundry Space, you get yo
    Click on your new instance (for example devhanainstance). Check you have enough free ressources (which should be the case in a fresh instance with defaults).
 
 
-4. Switch to your Space, where you installed HANA Cloud. <br>
-   
-5. Click on "SAP HANA Cloud". Open the Database Explorer.
+4. Switch to your Cloud Foundry Space, where you installed HANA Cloud. For example "dev".
+  
+5. Click on "SAP HANA Cloud". Your SAP HANA Database Instances will be listed.
 
    ![](images/hdbsetup/0_hanasetup_9_opendbexpl.png)
 
