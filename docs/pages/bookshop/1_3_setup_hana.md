@@ -119,11 +119,15 @@ If you create your HANA Cloud instance from your Cloud Foundry Space, you get yo
 4. Switch to your Cloud Foundry Space, where you installed HANA Cloud. For example "dev".
   
 5. Click on "SAP HANA Cloud". Your SAP HANA Database Instances will be listed.
+ 
+   Click on **Actions** and **Open in SAP HANA Database Explorer**.
 
    ![](images/hdbsetup/0_hanasetup_9_opendbexpl.png)
 
-6. You will only see the devhanainstance, which should not contain much artifacts.
-   In this exmple you see also an exmaple for a deployed HDI schema: "bookshop-db".
+6. Your SAP HANA Database Explorer will open. <br>
+   You will only see the devhanainstance, which should not contain much artifacts. <br>
+   In this exmple you see also an exmaple for a deployed HDI schema: "bookshop-db". <br>
+   You will deploy this schema later in this tutorial.
 
    ![](images/hdbsetup/0_hanasetup_10_dbexpl.png)
 
