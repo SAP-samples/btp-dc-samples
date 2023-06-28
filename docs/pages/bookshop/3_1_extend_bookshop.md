@@ -16,23 +16,6 @@ So far your bookshop application is quite basic. The following steps guide you t
    - **app** for the UIs, containing `/apps/booksui`
 
 
-4. Optional: Open the View "**Data Models and Services**" in your BAS Explorer. It provides a dedicated CAP view on your project.
-   
-
-5. Open Storyboard. Open in BAS menu bar: "View" --> "Command Palette" and type **Open Storyboard**.
-
-   Select your project path and select "Detailed View" in Storyboard. Explore the Storyboard.
-
-   ![Open Storyboard](images/extend/3_app_2_storyboard.png)
-
-   You can also create new project artifacts from here.
-
-6. Click on  **my.bookshop** table and select **Open in Graphical Modeler**. 
-
-   ![Graphical Modeler](images/extend/3_app_1_cdsmodeler.png)
-
-   You can extend and change your data model here. But will use the text editor in this tutorial.
-
 
 ### Extend your data model
 
@@ -286,6 +269,27 @@ You can also debug your application with the **Run and Debug** view.
    ![debug](images/extend/3_app_9_dbg2.png)
 
 6. Don't forget to stop the app when done. Remove the breakpoint.
+
+
+
+### Optional: Use CAP View and Storyboard
+
+4. Optional: Open the View "**Data Models and Services**" in your BAS Explorer. It provides a dedicated CAP view on your project.   
+
+5. Optional: Click on  **my.bookshop** table and select **Open in Graphical Modeler**. 
+
+   ![Graphical Modeler](images/extend/3_app_1_cdsmodeler.png)
+
+   You can extend and change your data model here. In this tutorial, you will use the text editor .
+   
+   
+6. Optional: Open Storyboard. Open in BAS menu bar: "View" --> "Command Palette" and type **Open Storyboard**.
+
+   Select your project path and select "Detailed View" in Storyboard. Explore the Storyboard.
+
+   ![Open Storyboard](images/extend/3_app_2_storyboard.png)
+
+   You can also create new project artifacts from here.
 
 
 Congratulations! You have finished this tutorial!
