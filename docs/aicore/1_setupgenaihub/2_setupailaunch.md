@@ -1,6 +1,6 @@
 # Setup SAP AI Launchpad for Generative AI Hub
 
-SAP AI Launchpad is a multitenant software as a service (SaaS) application in SAP Business Technology Platform. You can use SAP AI Launchpad to manage AI use cases (scenarios) across multiple instances of AI runtimes (such as SAP AI Core). 
+SAP AI Launchpad is a multitenant software as a service (SaaS) application in the SAP Business Technology Platform. You can use SAP AI Launchpad to manage AI use cases (scenarios) across multiple instances of AI runtimes (such as SAP AI Core). 
 
 SAP AI Launchpad also provides generative AI capabilities via the Generative AI Hub.
 
@@ -9,7 +9,7 @@ SAP AI Launchpad also provides generative AI capabilities via the Generative AI 
 
 ### Setup AI Launchpad with a Booster
 
-You can setup AI Launchpad either manually or with a BTP booster. In this tutorial you use the booster. 
+You can set up AI Launchpad either manually or with a BTP booster. In this tutorial, you use the booster. 
 
 For a manual setup, follow this guide [Initial Setup on SAP Help Portal](https://help.sap.com/docs/ai-launchpad/sap-ai-launchpad/initial-setup?locale=en-US)
 
@@ -45,7 +45,7 @@ For a manual setup, follow this guide [Initial Setup on SAP Help Portal](https:/
 
 5. Booster Step 3: Configure Subaccount.
 
-    Choose "Standard" as Service Plan. Keep the values for your Subaccount: 
+    Choose "Standard" as a Service Plan. Keep the values for your Subaccount: 
 
     Choose "Next".
 
@@ -56,14 +56,14 @@ For a manual setup, follow this guide [Initial Setup on SAP Help Portal](https:/
     It will take some minutes. When done a "Success" popup appears. Select "Navigate to Subaccount".
 
 
-7. In your Subaccount navigate to "Services" --> "Instances and Subscriptions" you can see the newly created SAP AI Launchpad Subsciption with Service Plan "Standard".
+7. In your Subaccount navigate to "Services" --> "Instances and Subscriptions". You can see the newly created SAP AI Launchpad Subscription with Service Plan "Standard".
 
     ![](images/23_ail_result.png)
 
 
 8. Optional: Check your Role Assignments
 
-    In your Subaccount, navigate to "Security" --> "Users". Select your user and select "Role Collections" tab.
+    In your Subaccount, navigate to "Security" --> "Users". Select your user and select the "Role Collections" tab.
 
     You may add additional role collections and replace deprecated role collections, like "ailaunchpad_functions_explorer_editor" with "ailaunchpad_functions_explorer_editor_v2"
 
@@ -73,7 +73,7 @@ For a manual setup, follow this guide [Initial Setup on SAP Help Portal](https:/
 
 10. Go back to your "Instances and Subscriptions" and start AI Launchpad.
 
-    You see, that your AI Launchpad does not have yet a connection to an AI Core service.
+    You see, your AI Launchpad does not have yet a connection to an AI Core service.
 
     ![](images/25_ail_noapicon.png)
 
@@ -93,7 +93,7 @@ For a manual setup, follow this guide [Initial Setup on SAP Help Portal](https:/
 
     ![](images/27_ail_con_create.png)
 
-3. Upload the AI Core key-file you just downloaded into the field "Service Key" and click "Save".
+3. Upload the AI Core key file you just downloaded into the field "Service Key" and click "Save".
 
     Result: Your connection is established.
 
