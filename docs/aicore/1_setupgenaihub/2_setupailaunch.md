@@ -67,9 +67,11 @@ For a manual setup, follow this guide [Initial Setup on SAP Help Portal](https:/
 
     You may add additional role collections and replace deprecated role collections, like "ailaunchpad_functions_explorer_editor" with "ailaunchpad_functions_explorer_editor_v2"
 
+    Repeat the same for your User.
+
     ![](images/24_ail_roles.png)
 
-9. Go back to your "Instances and Subscriptions" and start AI Launchpad.
+10. Go back to your "Instances and Subscriptions" and start AI Launchpad.
 
     You see, that your AI Launchpad does not have yet a connection to an AI Core service.
 
