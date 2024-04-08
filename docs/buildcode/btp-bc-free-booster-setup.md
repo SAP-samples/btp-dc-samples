@@ -11,17 +11,17 @@ author_name: Oliver Stiefbold
 
 # Setup SAP Build Code with Free Service Plans for Enterprise Accounts
 
-<!-- description --> Use the SAP BTP booster "Get Started with SAP Build Code (Free Plan)" to create a service instance of Build Code and Business Application Studio.
+<!-- description --> Use the "Get Started with SAP Build Code (Free Plan)" SAP BTP booster to create a service instance of SAP Build Code and SAP Business Application Studio.
 
-Make sure you have the entitlement for the Service [SAP Build Code](https://discovery-center.cloud.sap/serviceCatalog/sap-build-code?region=all&service_plan=standard&commercialModel=cloud)
+Make sure you have the entitlement for the [SAP Build Code](https://discovery-center.cloud.sap/serviceCatalog/sap-build-code?region=all&service_plan=standard&commercialModel=cloud) service. 
 
 
-Setting up a Trial Account is pretty similar, but is covered in the previous tutorial.
+Setting up a trial account is pretty similar, but is covered in the previous tutorial.
 
 
 ## Prerequisites
-- You have an Enterprise Account on SAP BTP.  
-- You are entitled to use the Build Code service with free Service Plan.
+- You have an enterprise account on SAP BTP.  
+- You are entitled to use the SAP Build Code service with the free service plan.
 
 
 
@@ -29,20 +29,20 @@ Setting up a Trial Account is pretty similar, but is covered in the previous tut
 ## You will learn
   - Access your SAP BTP account
   - Create a new subaccount for SAP Build Code (optional)
-  - Run the guided "booster" **Set up account for Build Code (Free Plan)** to assign entitlements, update your subaccount (or create a new one), create a service instance, subscribe to and access the Build Code "Lobby"
+  - Run the guided **Set up account for Build Code (Free Plan)** booster to assign entitlements, update your subaccount (or create a new one), create a service instance, subscribe to the service, and access the SAP Build lobby
 
 ---
 
 ### Go to your SAP BTP account
 
 
-1. Open your [SAP BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit).
+1. Open the [SAP BTP cockpit](https://emea.cockpit.btp.cloud.sap/cockpit).
 
 2. Access your global account.
 
    ![Access Global account](images/00_bc_free_ga.png)
 
-3. Make sure you are entitled to use the Build Code service with free Service Plan.
+3. Make sure you are entitled to use the SAP Build Code service with the free service plan.
 
     ![Entitlement for Free Service Plan](images/00_bc_free_entitlement.png)
 
@@ -50,9 +50,9 @@ Setting up a Trial Account is pretty similar, but is covered in the previous tut
 ### Run Booster
 
 
-SAP Business Technology Platform provides interactive guided boosters to automate cockpit steps, so users can save time when trying out the services.
+SAP BTP provides interactive guided boosters to automate cockpit steps, so users can save time when trying out the services.
 
-Select booster **Set up account for Build Code (Free Plan)** to automatically assign entitlements, update your subaccount (or create a new one), create a service instance, subscribe to and access the Build Code UI.
+Select the **Set up account for Build Code (Free Plan)** booster to automatically assign entitlements, update your subaccount (or create a new one), create a service instance, subscribe to the service, and access SAP Build Code.
 
 1. On the navigation side bar, click **Boosters**.
 
@@ -60,19 +60,19 @@ Select booster **Set up account for Build Code (Free Plan)** to automatically as
 
     ![Search Booster](images/01_bc_boosters.png)
 
-2. Check the "Components" the booster will install and click **Start**.
+2. Go to the **Components** tab to see what will be installed, and click **Start**.
 
     ![Booster Components](images/01_bc_booster_components.png)
 
 3. Booster Step 1: 
 
-    The booster checks if the necessary entitlements for Build Code are available and free in the Global Account and you have the authorization to create Subaccounts and Services. 
+    The booster checks if the necessary entitlements for SAP Build Code are available and free in the global account and that you have the authorization to create subaccounts and services. 
 
-    The result must be "All required prerequisites are met":
+    The result must be "All required prerequisites are met".
 
     ![Booster Step 1](images/02_freebooster_step1_passed.png)
 
-    In case you miss the prerequisites, the booster will inform you. For example about missing entitlements.
+    If you are missing any of the prerequisites, the booster will inform you. For example, if you are missing entitlements.
 
     
 
@@ -89,7 +89,7 @@ Select booster **Set up account for Build Code (Free Plan)** to automatically as
 
 5. Booster Step 3:
 
-    Choose the Service Plan **"free"** for SAP Build Code and SAP Business Application Studio.
+    Choose the **"free"** service plan for SAP Build Code and SAP Business Application Studio.
 
     Provide the details for your subaccount:
 
@@ -112,45 +112,42 @@ Select booster **Set up account for Build Code (Free Plan)** to automatically as
 
 7. Booster Step 5: Review
 
-    Review your settings for the booster. Double-check the region for example. If everything is ok, click **Finish**.
+    Review your settings for the booster. For example, double-check the region. If everything is ok, click **Finish**.
 
    
 
     ![Booster Step 5](images/06_freebooster_step5.png)
 
 
-8.  The booster will start to run and a progress popup will appear:
+    The booster will start to run and a progress popup is displayed.
 
     ![Booster Progress](images/07_freebooster_progress.png)
 
 
-9. When the booster has finished, the **Success** dialog box will appear.
+   When the booster has finished, the **Success** dialog box is displayed.
 
     ![Success](images/08_freebooster_navigate.png)
 
-    Click **Navigate to Subaccount** on the success popup.
  
-10. You will be forwarded to the Build Code application:
+8. Click **Navigate to Subaccount** on the success popup. You will be forwarded to your SAP Build Code subscription.
    
      ![New Subaccount](images/09_freebooster_subs.png)
 
 
-You have successfully used the booster **Set up account for Build Code (Free Plan)** to subscribe to and access the SAP Build Code Lobby.
+You have successfully used the **Set up account for Build Code (Free Plan)** booster to subscribe to and access SAP Build Code.
 
 
 
 
 
 
-### Access SAP Build Code (Free Plan) Lobby
+### Access the SAP Build Lobby
 
-1. Click on the subscription "SAP Build Code".
-
-2. You will be forwarded to the Lobby.
+1. In the **Subscriptions** tab, click on **SAP Build Code**. You will be forwarded to the SAP Build lobby.
 
     ![New Subaccount](images/11_free_bc_lobby.png)
 
-From here, you can create your first Full-Stack Application as described in the next tutorial.
+From here, you can create your first Full-Stack application as described in the next tutorial.
 
 
 Congratulations, you've completed this tutorial.

@@ -2,33 +2,33 @@
 
 SAP AI Core is a service in the SAP Business Technology Platform that is designed to handle the execution and operations of your AI assets.
 
-SAP AI Launchpad is a multitenant software as a service (SaaS) application in SAP Business Technology Platform. You can use SAP AI Launchpad to manage AI use cases (scenarios) across multiple instances of AI runtimes (such as SAP AI Core). 
+SAP AI Launchpad is a multitenant software as a service (SaaS) application in the SAP Business Technology Platform. You can use SAP AI Launchpad to manage AI use cases (scenarios) across multiple instances of AI runtimes (such as SAP AI Core). 
 
 SAP AI Launchpad also provides generative AI capabilities via the Generative AI Hub.
 
 
 ### Check your Entitlements for AI Core and AI Launchpad
 
-You can setup AI core and AI Core with different service plans. 
+You can set up AI Core and AI Core with different service plans. 
 
- - Free-tier with limited capabilities and only community support.
+ - With Free Plans with limited capabilities and only community support.
  - Standard for "classic" AI.
- - Extended for using the Generative AI Hub
+ - **Extended** for using the Generative AI Hub
 
 In order to check your global entitlements of your Enterprise Account, open SPA BTP Cockpit and access your Global Account. 
 
 Select "Entitlements" --> "Service Assignments" and search for "AI".
 
-In this case you see, that you are entitled for the SAP AI Core Service Plan "extended", which allows you to use Generative AI Hub. You can go on with this tutorial.
+In this case, you see, that you are entitled to the SAP AI Core Service Plan "extended", which allows you to use Generative AI Hub. You can go on with this tutorial.
 
-In addition you need a **Cloud Foundry Runtime** entitlement.
+In addition, you need a **Cloud Foundry Runtime** entitlement.
 
 ![](images/1_aic_entitlements.png)
 
 
 ### Setup AI Core with a Booster
 
-You can setup AI Core either manually or with a BTP booster. In this tutorial you use the booster. 
+You can set up AI Core either manually or with a BTP booster. In this tutorial, you use the booster. 
 
 For a manual setup, follow this guide [Initial Setup on SAP Help Portal](https://help.sap.com/docs/sap-ai-core/sap-ai-core-service-guide/initial-setup?locale=en-US&q=generative)
 
@@ -47,19 +47,19 @@ For a manual setup, follow this guide [Initial Setup on SAP Help Portal](https:/
 
 3. Booster Step 1: Check Prerequisites.
 
-    The booster checks your authorizations and entitlements. Note, he cannot check if you are entitled for the Service Plan "extended".
+    The booster checks your authorizations and entitlements. Note, that he cannot check if you are entitled to the Service Plan "extended".
 
     ![](images/4_aic_boo_step1.png)
 
 4. Booster Step 2: Select Scenario
 
-    You can either creat a new Subaccount or use an existing one. In this example step, you create a new Subaccount.
+    You can either create a new Subaccount or use an existing one. In this example step, you create a new Subaccount.
 
     ![](images/5_aic_boo_step2.png)
 
 5. Booster Step 3: Provide details for your Subaccount.
 
-    Select as Service Plan "Standard". The booster does not support extended so far. You will fix this later
+    Select Service Plan "Extended". If the booster does not support extended so far, select "Standard". You can fix this later.
 
     If you create a new Subaccount you have to provide a name and select Provider and Region.
 
@@ -77,13 +77,16 @@ For a manual setup, follow this guide [Initial Setup on SAP Help Portal](https:/
 
     ![](images/7_aic_boo_finished.png)
 
-8. In your Subaccount navigate to "Services" --> "Instances and Subscriptions" you can see the newly created SAP AI Core Instance with Service Plan "Standard" and the new Cloud Foundry Environment.
+8. In your Subaccount navigate to "Services" --> "Instances and Subscriptions". 
+ 
+    You can see the newly created SAP AI Core Instance with Service Plan "Extended" (or "Standard") and the new Cloud Foundry Environment.
 
     ![](images/8_aic_result.png)
 
 
-### Change the AI Core Service Plan to "Extended"
+### Optional: Change the AI Core Service Plan to "Extended"
 
+In case you selected the service plan "Standard", you have to add the service plan "Extended".
 
 1. In You Subaccount go to "Entitlements" and search for "AI". 
 
