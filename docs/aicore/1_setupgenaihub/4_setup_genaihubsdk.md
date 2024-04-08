@@ -1,4 +1,4 @@
-# Set up Generative AI Hub SDK
+# Set Up Generative AI Hub SDK
 
 
 ### Prerequistes
