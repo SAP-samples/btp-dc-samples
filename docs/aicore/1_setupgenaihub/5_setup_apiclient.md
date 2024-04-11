@@ -3,7 +3,7 @@
 
 ### Prerequisites
 
-You need to install an API client first or you use a web based API Client. There are lot of API Clients to test APIs. For example [CURL](https://curl.se/) or clients with an UI.
+You need to install an API client first or you use a web-based API Client. There are a lot of API Clients to test APIs. For example [CURL](https://curl.se/) or clients with an UI.
 
 This short tutorial uses Postman. You will need information about the AI Core API.
 
@@ -12,7 +12,7 @@ This short tutorial uses Postman. You will need information about the AI Core AP
 
     ![](images/api_01_aicore.png)
 
-2. Scroll down an download the API Specification as `AI_CORE_API.json` file. In some API Clients you can import this as an OpenAPI collection.
+2. Scroll down and download the API Specification as `AI_CORE_API.json` file. In some API Clients, you can import this as an OpenAPI collection.
 
     ![](images/api_02_aicorejson.png)
 
@@ -31,7 +31,7 @@ This short tutorial uses Postman. You will need information about the AI Core AP
 
     ![](images/40_genai_aic_key.png)
 
-    This is how your key looks like:
+    This is what your key looks like:
 
     ![](images/41_genai_aic_key2.png)
 
@@ -39,21 +39,21 @@ This short tutorial uses Postman. You will need information about the AI Core AP
 
 <br>
 
-### Test AI Core API with Postman Desktop App
+### Test AI Core API with the Postman Desktop App
 
 1. Download and install [Postman](https://www.postman.com/downloads/).  
 
-2. Look up in SAP Business Accelerator Hub for example the url for "Scenario" and "Get list of scenarios": `/lm/scenarios`.
+2. Look up in SAP Business Accelerator Hub, for example, the url for "Scenario" and "Get list of scenarios": `/lm/scenarios`.
 
 
-3. Look up in your AI Core service key your "serviceurls", for example if you run in EU: "AI_API_URL": https://api.ai.prod.eu-central-1.aws.ml.hana.ondemand.com. 
+3. Look up in your AI Core service key your "serviceurls", for example, if you run in EU: "AI_API_URL": https://api.ai.prod.eu-central-1.aws.ml.hana.ondemand.com. 
 
     You can look up all production urls in [Business Accelerator Hub](https://api.sap.com/api/AI_CORE_API/overview) --> "Configuration Details".
 
-4. Create the API URL. Current version is **`V2`**. 
+4. Create the API URL. The current version is **`V2`**. 
     The URL is: `https://api.ai.prod.eu-central-1.aws.ml.hana.ondemand.com/V2/lm/scenarios`.
 
-5. Paste the URL in Postman request bar.
+5. Paste the URL in the Postman request bar.
 
     ![](images/api_03_pman_token_1.png)
 
@@ -63,7 +63,7 @@ This short tutorial uses Postman. You will need information about the AI Core AP
 
 7. Scroll down to "Configure a New Token". 
 
-    Select as "Grant Type" "Client Credentials".
+    Select "Grant Type" and "Client Credentials".
 
     Provide your AI Core service key credentials to Postman.
 
@@ -71,9 +71,9 @@ This short tutorial uses Postman. You will need information about the AI Core AP
     - Postman "Client Secret": Service key value for "clientsecret"
     - Postman "Access Token URL": Service key value for "Url" + `/oauth/token`
 
-    Note: you have to extend the service key url with `/oauth/token`
+    Note: you have to extend the service key URL with `/oauth/token`
     
-    for example: https://mypersonalid.authentication.eu10.hana.ondemand.com/oauth/token
+    for example https://mypersonalid.authentication.eu10.hana.ondemand.com/oauth/token
 
     ![](images/api_04_pman_token_2.png)
 
@@ -93,12 +93,12 @@ This short tutorial uses Postman. You will need information about the AI Core AP
 
     Add the key `AI-Resource-Group` and your value, typically `default`.
 
-    You know from Business Acceleretor Hub --> `AI Core --> lm --> sceanrios --> Get list of scenarios` that you need this additional header parameter.
+    You know from Business Accelerator Hub --> `AI Core --> lm --> scenarios --> Get list of scenarios` that you need this additional header parameter.
 
     
      ![](images/api_07_pman_header.png)
 
-11. Click **Send** and check the result. You should see the scenario id "foundation-models" in the response body.
+11. Click **Send** and check the result. You should see the scenario ID "foundation-models" in the response body.
 
      ![](images/api_08_pman_response.png)
 
@@ -112,7 +112,7 @@ This short tutorial uses Postman. You will need information about the AI Core AP
 
 2. In this example, there a 3 deployments from previous tutorials. 
 
-    One of it is named "gpt-4". Note down the "deploymentUrl":
+    One of them is named "gpt-4". Note down the "deploymentUrl":
 
     `"deploymentUrl": "https://api.ai.prod.eu-central-1.aws.ml.hana.ondemand.com/v2/inference/deployments/someid"`
 
@@ -121,7 +121,7 @@ This short tutorial uses Postman. You will need information about the AI Core AP
 
 ### Access Chat Completions API of your LLM Deployment
 
-1. Choose one of your deployments which you want to access. Note down your "deploymentUrl"
+1. Choose one of your deployments that you want to access. Note down your "deploymentUrl"
 
 2. Create your **POST** request: {{deploymentUrl}}/chat/completions?api-version=2023-05-15
 
@@ -129,7 +129,7 @@ This short tutorial uses Postman. You will need information about the AI Core AP
 
     ![](images/api_11_pman_post.png)
 
-    As "Authorization" choose "Type" "Bearer Token" and provide a valid Bearer Token. E.g. the one you generated in teh previous steps.
+    As "Authorization" choose "Type" "Bearer Token" and provide a valid Bearer Token. E.g. the one you generated in the previous steps.
 
 
     As "Body" provide your question message, for example:
