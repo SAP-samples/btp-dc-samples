@@ -1,5 +1,6 @@
-# Set Up Generative AI Hub SDK
+# Set up Generative AI Hub SDK
 
+<!--- Author: Oliver Stiefbold  --->
 
 ### Prerequistes
 
@@ -11,7 +12,9 @@ You need to install required tools on your local client first:
 
     Python 3 includes the command line tool **pip** as python package installer.
 
-2. Use **pip** to install **Jupyter Notebook**. Jupyter is used to execute python code pieces in the form of reusable cells.
+2. You can use the preferred Python environment of your choice. If you want to use Jupyter Notebook, use **pip** to install **Jupyter Notebook**. 
+
+    Jupyter is used to execute python code pieces in the form of reusable cells.
 
     ```Python
     pip install notebook
@@ -101,6 +104,8 @@ For more information, see also the SAP tutorial [Set Up Tools to Connect With an
 
 6. Run in Jupyter
 
+    **Note:** Your can only call AI Core deployments, which you have successfully created before you start Jupyter Notebook. Restart Jupyter Notebook, if you made any changes to deployments in between.
+
     **Note:** This will only work, if you have already configured and deployed the `gpt-35-turbo` model in your Generative AI Hub!
 
     ```PYTHON
@@ -122,5 +127,21 @@ For more information, see also the SAP tutorial [Set Up Tools to Connect With an
     ```PYTHON
     'Godmorgen'
     ```
+8. Try out a text-embedding deployment.
+
+    Note, `text-embedding-ada-002` needs to be deployed in AI Core beforehand.
+
+    ```PYTHON
+    from gen_ai_hub.proxy.langchain.init_models import init_llm
+    from gen_ai_hub.proxy.langchain.init_models import init_embedding_model
+
+    llm = init_llm('gpt-4', temperature=0., max_tokens=256)
+    embeddings = init_embedding_model('text-embedding-ada-002')
+    llm.invoke('What is generative AI?').content
+    ```
+ 
+    ![Jupyter notebook](images/43_genai_jupyter_2.png)
+
+
 
 Congratulations! You have set up the generative-ai-hub-sdk.
