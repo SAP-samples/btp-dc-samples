@@ -1,17 +1,20 @@
-# Setup SAP HANA Cloud 
+# Setup SAP HANA Cloud in a Cloud Foundry Environment
 
 This step is only necessary if you want to deploy your database application in BTP or if you want to use a SAP HANA backend database for (hybrid) development.
 
 For example, SAP Cloud Application Programming CAP comes with a built-in in-memory database, which you can use during development.
 
+## Note Before You Start 
 
-## Setup SAP HANA Cloud in BTP Cockpit
+This tutorial uses the "classic" way to create a SAP HANA Cloud Instance in a **Cloud Foundry Space**. 
+
+The "new" way is to use SAP HANA Cloud **Central**. However, the steps are different and this tutorial is based on the Cloud Foundry version.
 
 ### Prerequisites
 
-SAP BTP Enterprise or Trial Account with at least one Cloud Foundry enabled Subaccount and at least on Cloud Foundry Space.
+SAP BTP Enterprise or Trial Account with at least one Cloud Foundry enabled Subaccount and at least one Cloud Foundry Space.
 
-### Check you Entitlements
+### Check your Entitlements
 
 1. Open your Global Account in BTP Cockpit.
 
@@ -22,13 +25,13 @@ SAP BTP Enterprise or Trial Account with at least one Cloud Foundry enabled Suba
    - Service plans "relational-data-lake" and "hana-cloud-connection" will not be used in this tutorial.
    - hana-cloud-tools is used for Multi-Environment SAP HANA Cloud Tools.
    - Trial Accounts use the service plan hana-cloud-trial
-   - hdi-shared, schema and securestore is required to deploy db schemas and db artifacts.
+   - "hdi-shared", "schema" and "securestore" is required to deploy db schemas and db artifacts.
 
    ![](images/hdbsetup/0_hanasetup_1_entitlements.png)
 
-4. Go to `Entity Assigments`, click on `Select Entities` and select your Subaccount in which you want to deploy your application.
+4. Go to `Entity Assignments`, click on `Select Entities`, and select the Subaccount in which you want to deploy your application.
 
-5. Check that your Subaccount is entitled for HANA Cloud. 
+5. Check that your Subaccount is entitled to SAP HANA Cloud. 
 
 6. If not click on `Configure Entitlements` and then on `Add Service Plans`. 
    
@@ -44,7 +47,7 @@ SAP BTP Enterprise or Trial Account with at least one Cloud Foundry enabled Suba
 
 2. In the left pane of the subaccount, click `Instances and Subscription`.
    
-3. Click on the blue `Create`button.
+3. Click on the blue `Create` button.
 
 4. A popup opens. Select **Service: SAP HANA Cloud** and **Plan: tools**.
 
@@ -68,7 +71,7 @@ SAP BTP Enterprise or Trial Account with at least one Cloud Foundry enabled Suba
 
 If you create your HANA Cloud instance from your Cloud Foundry Space, you get your CF Organization and Space pre-configured.
 
-1. Open your Cloud Foundry Space, for example **dev**. 
+1. Open your Cloud Foundry Space, for example, **dev**. 
 
 2. Click SAP HANA Cloud in the left pane.
 
@@ -88,7 +91,7 @@ If you create your HANA Cloud instance from your Cloud Foundry Space, you get yo
 
     - Step 4: Keep the default settings. Choose `Next Step`.
 
-    - Step 5: If you want to use local development tools like VS Code, select "Allow all IP adresses". You can change this also later. 
+    - Step 5: If you want to use local development tools like VS Code, select "Allow all IP addresses". You can change this also later. 
       
       Keep the other default settings. Choose `Review and Create`.
 
@@ -133,10 +136,11 @@ If you create your HANA Cloud instance from your Cloud Foundry Space, you get yo
 
    ![](images/hdbsetup/0_hanasetup_9_opendbexpl.png)
 
-6. Your SAP HANA Database Explorer will open. <br>
-   You will only see the devhanainstance, which should not contain much artifacts. <br>
-   In this exmple you see also an exmaple for a deployed HDI schema: "bookshop-db". <br>
-   You will deploy this schema later in this tutorial.
+6. Your SAP HANA Database Explorer will open.
+
+    You will only see the devhanainstance, which should not contain many artifacts. 
+
+    In this exmple you see also an exmaple for a deployed HDI schema: "bookshop-db". You will deploy this schema later in this tutorial.
 
    ![](images/hdbsetup/0_hanasetup_10_dbexpl.png)
 
