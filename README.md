@@ -3,17 +3,17 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-dc-samples)](https://api.reuse.software/info/github.com/SAP-samples/btp-dc-samples)
 
 ## Description
-The goal of this mission is to create a basic CAP application using data model, service and a Fiori application in SAP Business Application Studio.
+The goal of this mission is to create a basic CAP application using a data model, service, and a Fiori application in SAP Business Application Studio.
 You will extend the CAP application and the Fiori to get a basic bookshop application. 
-Optionally you can deploy the application to on SAP Business Technology Platform (BTP) Cloud Foundry, using SAP HANA Cloud and HTML5 Repository from SAP Build Work Zone service. Once deployed on HANA cloud, you can use the backend database for hybrid testing.
+Optionally, you can deploy the application to the SAP Business Technology Platform (BTP) Cloud Foundry, using SAP HANA Cloud and HTML5 Repository from SAP Build Work Zone service. Once deployed on HANA cloud, you can use the backend database for hybrid testing.
 
 
 This mission includes the following steps:
 
 * Check the  **Prerequisites** 
 * Setup **SAP HANA Cloud** as production database
-* Setup your **SAP Launchpad Service** - to give you access to create and configure the central point of entry for your users.
-* Setup your **SAP Business Application Studio** - to give you access to the development environment. 
+* Set up your **SAP Launchpad Service** - to give you access to create and configure the central point of entry for your users.
+* Set up your **SAP Business Application Studio** - to give you access to the development environment. 
 * Create a ***CAP app** - from the scratch within minutes.
 * Add a Fiori App to your CAP Project.
 * Deploy your CAP app to your BTP **Subaccount** and run it.
@@ -23,7 +23,7 @@ This mission includes the following steps:
 
 The following requirements have to be met: 
 
-An SAP BTP Enterpise/trial account with entitlements for SAP HANA Cloud, Cloud Foundry Runtime, Business Application Studio and Launchpad Service.
+An SAP BTP Enterprise/trial account with entitlements for SAP HANA Cloud, Cloud Foundry Runtime, Business Application Studio, and Launchpad Service.
 
 You can find  your SAP BTP Trial Account here: [Welcome to SAP BTP trial](https://cockpit.hanatrial.ondemand.com/trial/#/home/trial)
 
