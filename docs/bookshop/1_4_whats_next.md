@@ -10,6 +10,9 @@ Run some tutorials from Tutorial Navigator
 
 - [Build an Application End-to-End Using CAP, Node.js and VS Code](https://developers.sap.com/mission.btp-application-cap-e2e.html)
 - [Consume Remote Services from SAP S/4HANA Cloud Using CAP](https://developers.sap.com/mission.btp-consume-external-service-cap.html)
+- [Develop a CAP Node.js App Using SAP Business Application Studio](https://developers.sap.com/group.appstudio-cap-nodejs.html)
+
+
 
 If you want to continue development, explore sample implementations an GitHub:
 

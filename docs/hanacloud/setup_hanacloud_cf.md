@@ -10,7 +10,7 @@ This tutorial uses the "classic" way to create a SAP HANA Cloud Instance in a **
 
 The "new" way is to use SAP HANA Cloud **Central**. However, the steps are different and this tutorial is based on the Cloud Foundry version.
 
-If you use SAP HANA Cloud in a cloud foundry environment, the Cloud Foundry "deployer" is aware of your database instance and you need less configuration.
+If you use SAP HANA Cloud in a cloud foundry environment (deprecated), the Cloud Foundry "deployer" is aware of your database instance and you need less configuration.
 
 <br>
 

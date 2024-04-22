@@ -1,39 +1,37 @@
 
-# Get started with SAP Cloud Application Programming, Fiori and HANA cloud 
+# Get started with SAP Cloud Application Programming, Fiori and SAP HANA cloud 
 
-The **SAP Cloud Application Programming Model (CAP)** is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers along a ‘golden path’ of proven best practices and a great wealth of out-of-the-box solutions to recurring tasks.
-
-CAP-based projects benefit from a primary focus on domain, by capturing domain knowledge and intent instead of imperative coding.
+The **SAP Cloud Application Programming Model (CAP)** is a framework of languages, libraries, and tools for building enterprise-grade services and applications. It guides developers with proven best practices and out-of-the-box solutions to recurring tasks. CAP-based projects benefit from a primary focus on domain, by capturing domain knowledge and intent instead of imperative coding.
 
 **Core Data Services (CDS)** is SAP´s universal modeling language to capture static, as well as behavioral aspects of problem domains in conceptual, concise, and comprehensible ways, and hence serves as the very backbone of CAP.
 
-## Prerequisites
 
-Have a SAP BTP Subaccount (Cloud Foundry Subaccount, not Neo!) with Business Application Studio (BAS).
+### Prerequisites
 
-If you want to deploy your app in BTP Cloud Foundry:
+- This mission is made with an SAP BTP Enterprise Account. SAP BTP Trial might differ from the shown steps.
 
-- Enable **Cloud Foundry** (CF) in your Subaccount and have free Cloud Foundry Runtime quota.
-- Have a **SAP HANA Cloud** Subscription or free entitlement for setup.
+- SAP BTP Subaccount (Enterprise or Trial) with **SAP Business Application Studio (BAS)**. 
 
-Optional: A **SAP Build Work Zone** Subscription.
+- If you want to do deploy your app in BTP Cloud Foundry, you need:
 
-> Note: If you are not yet familiar with the setup and basics of Business Technology Platfrom (BTP), Subaccounts, Business Application Studio and SAP Build Work Zone complete this very detailed guide on SAP Discovery Center first:
->
-> [Get started on SAP BTP creating a "Hello World" app with SAPUI5/Fiori](https://discovery-center.cloud.sap/missiondetail/3585/3628/).
+   - Enabled **Cloud Foundry Runtime** (CF) in your Subaccount and have free and unused CF Runtime quota.
+   - A **SAP HANA Cloud** with entitlement for service plan "hana" or "free" entitlement.
+   - Optional: A **SAP Build Work Zone** entitlement.
 
-### Additional Resources  
 
-#### Reference Documentation
+### Required Skills
 
-* This tutorial is based on the bookshop example of [SAP Cloud Application Programming Model](https://cap.cloud.sap/docs/) aka "capire". 
-  But it is not the same. The namespace is different and the coding is partially different.
-* Github Repository containing the [bookshop example](https://github.com/sap-samples/cloud-cap-samples). The procedure is different.
+If you are not yet familiar with the setup and basics of Business Technology Platfrom (BTP), Subaccounts, Business Application Studio and SAP Build Work Zone complete this mission on SAP Discovery Center first: [Get started on SAP BTP creating a "Hello World" app with SAPUI5/Fiori](https://discovery-center.cloud.sap/missiondetail/3585/3628/).
 
-#### SAP Tutorials covering the same topic
 
-* [Develop a CAP Node.js App Using SAP Business Application Studio](https://developers.sap.com/group.appstudio-cap-nodejs.html)
-* [Build an Application End-to-End Using CAP, Node.js and VS Code](https://developers.sap.com/mission.btp-application-cap-e2e.html) and 
-* [Consume Remote Services from SAP S/4HANA Cloud Using CAP](https://developers.sap.com/mission.btp-consume-external-service-cap.html)
+
+### Reference Documentation
+
+- This tutorial is based on the tiny bookshop example of [SAP Cloud Application Programming Model](https://cap.cloud.sap/docs/) aka "capire".   
+- A "big" bookshop example is available on Github: [bookshop example](https://github.com/sap-samples/cloud-cap-samples). 
+
+
+
+
 
 

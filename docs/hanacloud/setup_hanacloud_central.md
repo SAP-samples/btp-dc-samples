@@ -3,6 +3,24 @@
 In this set-up guide, you use the SAP HANA Cloud Administration Tools to set up a HANA Cloud instance, which is not bound to a specific BTP runtime or envirionment.
 
 
+### Check your Entitlements
+
+1. Open your Global Account in BTP Cockpit.
+
+2. Go to `Entitlements` --> `Service Assignments` and search for `hana`.
+
+3. Check, that you are entitled to use SAP HANA Cloud: 
+
+    - The service **SAP HANA Cloud** is required to setup SAP HANA Cloud Administration Tools and to set up a database instance and is required to run the following Booster.
+
+    - The service **SAP HANA Schemas & HDI Containers** is required later in your subaccount to deploy and access your HANA instance from your applications.
+  
+
+    ![](images/00_hana_01_entitlements.png)
+
+
+
+
 ### Set Up SAP HANA Cloud Administration Tools
 
 SAP HANA Cloud Central enables you to administer and monitor SAP HANA Cloud instances. 
