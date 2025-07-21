@@ -123,7 +123,9 @@ It can be used for Joule Digital Assistant in shared environments.
 
     ![](images/2_setup_workzone_21_joulesettings.png)
 
+4. As a result Joule is enabled in your Site (see Joule icon).
 
+    ![](images/2_setup_workzone_22_joule.png)
 
 
 ### Optional: Integrate your standalone SAP Build Environment in SAP Build Work Zone
