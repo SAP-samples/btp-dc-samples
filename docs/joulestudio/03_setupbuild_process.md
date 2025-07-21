@@ -74,9 +74,25 @@ The Booster for SAP Build Process Automation does not support build-default serv
 
 8. Check your newly created Process Automation Service.
 
-    ![](images/processa_booster_07_check.png)
+    If cannot update the service plan (as shown), the entitlement for "Build_default is missing.
 
-    Destinations
+    ![](images/processa_booster_07_0_check.png)
+    
+    Add the missing entitlement. Do not forget to save afterwards.
+
+    ![](images/processa_booster_07_1_check.png)
+
+    ![](images/processa_booster_07_2_check.png)
+
+    Change your service plan to "build_default"
+
+    ![](images/processa_booster_07_3_check.png)
+
+    ![](images/processa_booster_07_4_check.png)
+    
+    
+
+9. Check your Destinations and additional settings
 
     ![](images/processa_booster_08_dest.png)
 

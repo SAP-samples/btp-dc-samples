@@ -103,9 +103,27 @@ Your subaccount should already have a trust configuration from the previous boos
 
     You have to authenticate with your Custom IAS user.
 
-    The Work Zone Site Manager should now open.  
+    The Work Zone Site Manager should now open. 
 
     ![](images/2_setup_workzone_15_site.png)
+
+
+### Optional: Activate Joule in SAP Build Work Zone 
+
+If you have the Joule Service installed, you can activate Joule in Work Zone.
+It can be used for Joule Digital Assistant in shared environments.
+
+1. Create a "Test Site" in Work Zone Site Manger.
+
+2. Enter the "Site Settings" of your Test Site. 
+
+    ![](images/2_setup_workzone_20_sitesettings.png)
+
+3. Choose "Edit in your Site Settings and switch the Joule slider.
+
+    ![](images/2_setup_workzone_21_joulesettings.png)
+
+
 
 
 ### Optional: Integrate your standalone SAP Build Environment in SAP Build Work Zone
