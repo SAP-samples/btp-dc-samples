@@ -1,10 +1,11 @@
-# Set up SAP Build Process Automation for Joule Studio
+# Set up SAP Build Process Automation with a Booster
 
 You can set up SAP Build in two different ways.
 
-You can use the "Cloud Integration Automation" service, a free service in SAP BTP, which helps to simplify the onboarding process through a guided approach. For more information, see [SAP Help Portal](https://help.sap.com/docs/build-service/build-service-guide/initial-setup-of-sap-build?locale=en-US)
+You can use the "Cloud Integration Automation" service, a free service in SAP BTP, which helps to onboard BTP scenarios through a guided approach. For more information, see [SAP Help Portal](https://help.sap.com/docs/build-service/build-service-guide/initial-setup-of-sap-build?locale=en-US).
 
-This mission uses individual setup of SAP Build services using a setup Booster for SAP Build Process Automation, Joule, and optional SAP Build Work Zone.
+
+This tutorial uses individual setup of SAP Build services using a specific set-up Booster for SAP Build Process Automation, Joule, and optional SAP Build Work Zone.
 
 
 
