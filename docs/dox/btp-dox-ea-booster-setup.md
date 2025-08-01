@@ -14,7 +14,7 @@ author_profile: https://github.com/Juliana-Morais
 
 <!-- description --> Use the SAP BTP booster "Set up account for Document Information Extraction" to create a service instance of Document Information Extraction and a subscription to the UI application for Document Information Extraction.
 
-Depending on your entitlements you can choose three available [Service Plans](https://discovery-center.cloud.sap/serviceCatalog/document-information-extraction?region=all&tab=service_plan)
+Depending on your entitlements you can choose three available [Service Plans](https://discovery-center.cloud.sap/serviceCatalog/sap-document-ai?region=all&tab=service_plan)
 
 - Base Edition: Supports only default-extractors, managed by SAP. 
 - Free: Same as Base Edition, with technical limits for uploaded documents and size. Not for productive use.
