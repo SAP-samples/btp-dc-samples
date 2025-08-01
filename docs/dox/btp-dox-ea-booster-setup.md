@@ -2,36 +2,34 @@
 parser: v2
 auto_validation: true
 time: 5
-tags: [tutorial>beginner, topic>machine-learning, topic>artificial-intelligence, topic>cloud, software-product>sap-business-technology-platform, software-product>sap-ai-services, software-product>document-information-extraction, tutorial>free-tier]
+tags: [tutorial>beginner, topic>machine-learning, topic>artificial-intelligence, topic>cloud, software-product>sap-business-technology-platform, software-product>sap-ai-services, software-product>document-ai, tutorial>free-tier]
 primary_tag: topic>machine-learning
-author_name: Oliver Stiefbold
-author_profile: https://github.com/Juliana-Morais
 -->
 
 
 
-# Set Up Document Information Extraction in Enterprise Accounts
+# Set Up Document AI in Enterprise Accounts
 
-<!-- description --> Use the SAP BTP booster "Set up account for Document Information Extraction" to create a service instance of Document Information Extraction and a subscription to the UI application for Document Information Extraction.
+<!-- description --> Use the SAP BTP booster "Set up account for Document AI" to create a service instance of Document AI and a subscription to the UI application for Document AI.
 
 Depending on your entitlements you can choose three available [Service Plans](https://discovery-center.cloud.sap/serviceCatalog/sap-document-ai?region=all&tab=service_plan)
 
 - Base Edition: Supports only default-extractors, managed by SAP. 
 - Free: Same as Base Edition, with technical limits for uploaded documents and size. Not for productive use.
-- Premium Edition: Includes document information extraction using generative AI. 
+- Premium Edition: Includes document AI using generative AI. 
 
 Setting up a Trial Account is pretty similar, but is covered in a dedicated tutorial.
 
 
 ## Prerequisites
 - You have an Enterprise Account on SAP BTP.  
-- You are entitled to use the Document Information Extraction service.
+- You are entitled to use the Document AI service.
 
 
 ## You will learn
   - Access your SAP BTP account
   - Create a new subaccount (optional)
-  - Run the guided "booster" **Set up account for Document Information Extraction** to assign entitlements, update your subaccount (or create a new one), create a service instance, subscribe to and access the Document Information Extraction UI
+  - Run the guided "booster" **Set up account for Document AI** to assign entitlements, update your subaccount (or create a new one), create a service instance, subscribe to and access the Document AI UI
 
 ---
 
@@ -51,11 +49,11 @@ Setting up a Trial Account is pretty similar, but is covered in a dedicated tuto
 
 SAP Business Technology Platform provides interactive guided boosters to automate cockpit steps, so users can save time when trying out the services.
 
-Select booster **Set up account for Document Information Extraction** to automatically assign entitlements, update your subaccount (or create a new one), create a service instance, subscribe to and access the Document Information Extraction UI.
+Select booster **Set up account for Document AI** to automatically assign entitlements, update your subaccount (or create a new one), create a service instance, subscribe to and access the Document AI UI.
 
 1. On the navigation side bar, click **Boosters**.
 
-    Search for **Document Information Extraction** and click the tile to access the booster.
+    Search for **Document AI** and click the tile to access the booster.
 
     ![UI application](images/00_2_dox_booster_start.png)
 
@@ -65,15 +63,13 @@ Select booster **Set up account for Document Information Extraction** to automat
 
 4. Booster Step 1: 
 
-    The booster checks if the necessary entitlements for Document Information Extraction are available and free in the Global Account and you have the authorization to create Subaccounts and Services. 
+    The booster checks if the necessary entitlements for Document AI are available and free in the Global Account and you have the authorization to create Subaccounts and Services. 
 
     The result must be "All required prerequisites are met":
 
     ![UI application](images/01_dox_booster_1_passed.png)
 
-    In case you miss the prerequisites, the booster will inform you. For example about missing entitlements:
-
-    ![UI application](images/02_dox_booster_1_failed.png)
+    In case you miss the prerequisites, the booster will inform you about the root cause. For example about missing entitlements.
 
 
 5. Booster Step 2: 
@@ -90,7 +86,7 @@ Select booster **Set up account for Document Information Extraction** to automat
 
     Choose the Service Plan "Premium Edition" in order to use the generative AI features.
 
-    You can also choose "Base Edition" or "Free", but you will not be able to us GenAI in taht case.
+    You can also choose "Base Edition" or "Free", but you will not be able to use GenAI in that case.
 
     Provide the details for your subaccount:
 
@@ -123,16 +119,16 @@ Select booster **Set up account for Document Information Extraction** to automat
 
     Click **Go to Application** on the sucess popup.
  
- 9. You will be forwarded to the Document Information Extraction application:
+ 9. You will be forwarded to the Document AI application:
    
-     ![UI application](images/app.png)
+    ![UI application](images/07_dox_booster_6.png)
 
 
-You have successfully used the booster **Set up account for Document Information Extraction** to subscribe to and access the Document Information Extraction UI.
+You have successfully used the booster **Set up account for Document AI** to subscribe to and access the Document AI UI.
 
 
 
-Note: If you face any issue with the booster **Set up account for Document Information Extraction**, you can alternatively follow the steps in [Use Free Tier to Subscribe to Document Information Extraction UI](https://developers.sap.com/tutorials/cp-aibus-dox-free-ui-sub.html) to subscribe to the user interface application manually.
+Note: If you face any issue with the booster **Set up account for Document AI**, you can alternatively follow the steps in [Use Free Tier to Subscribe to Document AI Basic UI](https://developers.sap.com/tutorials/cp-aibus-dox-free-ui-sub.html) to subscribe to the user interface application manually.
 
 
 
@@ -140,9 +136,9 @@ Note: If you face any issue with the booster **Set up account for Document Infor
 ### Access subscription (optional)
 
 
-> This is an optional step. Use it only if you want to access the Document Information Extraction application, you've subscribed to using the **Set up account for Document Information Extraction** booster, without having to run it once again.
+> This is an optional step. Use it only if you want to access the Document AI application, you've subscribed to using the **Set up account for Document AI** booster, without having to run it once again.
 
-Do the following to access the Document Information Extraction application, without having to run the **Set up account for Document Information Extraction** booster once again:
+Do the following to access the Document AI application, without having to run the **Set up account for Document AI** booster once again:
 
 1. Close the booster **Success** dialog box.
 
@@ -150,16 +146,15 @@ Do the following to access the Document Information Extraction application, with
 
 2. Access your global account.
 
-3. Click **Account Explorer** on the navigation side bar and access the subaccount you used to create your subscription to the Document Information Extraction application.
+3. Click **Account Explorer** on the navigation side bar and access the subaccount you used to create your subscription to the Document AI application.
 
     ![UI application](images/subaccounts.png)
 
-4. Click **Instances and Subscriptions** on the navigation side bar. You see the application subscription you created with the **Set up account for Document Information Extraction** booster.
+4. Click **Instances and Subscriptions** on the navigation side bar. You see the application subscription you created with the **Set up account for Document AI** booster.
 
     ![UI application](images/subscription.png)
 
-5. Click the dots to open the menu and select **Go to Application** to open the app.
+5. Click on the application name or select the dots to open the menu and select **Go to Application** to open the app.
 
-    ![UI application](images/application.png)
 
 Congratulations, you've completed this tutorial.
