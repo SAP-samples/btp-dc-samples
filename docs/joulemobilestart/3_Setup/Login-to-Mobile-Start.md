@@ -1,4 +1,4 @@
-## Login to Mobile Start
+## 4. Login to Mobile Start
 
 Once you install the SAP Mobile Start application, launch it, select **Register** from the SAP Start page, and enter your login details. 
 

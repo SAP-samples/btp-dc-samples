@@ -1,4 +1,4 @@
-### 2. SAP Build Work Zone, Standard Edition – standard plan (skip it, if you followed the foundation plan setup) 
+## 2. SAP Build Work Zone, Standard Edition – standard plan (skip it, if you followed the foundation plan setup) 
 
 This process applies if you have activated the SAP Build Work Zone, standard plan with Joule, as shown in Image 1 in section Prerequisistes.  
 
@@ -14,13 +14,13 @@ This process applies if you have activated the SAP Build Work Zone, standard pla
 **<p align="center"> Image 2 </p>**
 
 - In the **Site Settings** screen, at the top right of the screen, click **Edit** and look for Joule under the Service option and switch the toggle button to **Yes** as shown below and save the settings.
-![Inlcude systems](images/12.png)
+![Inlcude systems](images/21.png)
 
-**<p align="center"> <b>Image adddd</b> </p>**
+**<p align="center"> <b>Image 3</b> </p>**
 
 
 - Now, if you Navigate to the Mobile Test site, you should be able to see the Joule icon, which is connected to the LoB systems that you have configured as per your requirements. The image below shows the service up and running
 
-![Inlcude systems](images/12.png)
+![Inlcude systems](images/22.png)
 
-**<p align="center"> <b>Image adddd</b> </p>**
+**<p align="center"> <b>Image 4</b> </p>**

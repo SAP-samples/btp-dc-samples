@@ -1,4 +1,6 @@
-### B. Add Joule to the SAP Start Formation
+## 1. SAP Build Work Zone, Standard Edition – foundation plan 
+
+### 1.2. Add Joule to the SAP Start Formation
 
 To integrate Joule capabilities with the SAP Start site, we need to add Joule to the SAP Start Formation which we created earlier, and for that follow the below mentioned steps. 
 

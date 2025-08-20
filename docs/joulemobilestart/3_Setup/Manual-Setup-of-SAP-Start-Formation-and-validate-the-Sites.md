@@ -1,5 +1,6 @@
-## Manual Setup of SAP Start Formation and validate the Sites 
-### A. Workzone - standard edition - Foundation Plan
+## 1. SAP Build Work Zone, Standard Edition – foundation plan 
+ 
+### 1.1 Manual Setup of SAP Start Formation and validate the Sites 
 
 SAP BTP offers a Booster to activate SAP Start, but this is only applicable when setting up a new subaccount. In this case, the manual method is used.
 - To proceed, navigate to the SAP BTP Cockpit, go to **System Landscape**, click on **Formations**, and then select **Create Formation**. 
@@ -24,7 +25,6 @@ SAP BTP offers a Booster to activate SAP Start, but this is only applicable when
 ![Create formation 3](images/5.png)
 
 **<p align="center"> Image 4 </p>**
-
 
 
 - After completing the process, the formation should appear in the **Ready** state, as displayed below.

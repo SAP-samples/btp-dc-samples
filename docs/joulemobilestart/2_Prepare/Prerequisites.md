@@ -8,15 +8,14 @@ Make sure all the system prerequisites are met.
 - Joule instance connected to business systems
 - SAP Cloud Identity Services
 
-
 ## SAP Build Work Zone, Standard Edition – Foundation plan 
 ### Pre-requisites: 
 
-- If you have Joule instance, make sure to have Work zone as a part of it. 
+- If you have Joule instance, make sure to have Work Zone as a part of it. 
 
 - If Joule instance is not there, please follow the steps given <a href="https://discovery-center.cloud.sap/missiondetail/4538/4826/?tab=projectboard">here</a>. 
 
-- When setting up the booster, choose **SAP Build Work Zone, standard edition**(for Select Integration & capabilities step).
+- When setting up the booster, choose **SAP Build Work Zone, standard edition**(Select Integration & capabilities).
 
 - If you skipped this, go to the SAP Business Technology Platform dashboard, locate **Systems**, select **Formations**, search for the formation name, and add the **SAP Build Work Zone, standard edition** to the subaccount.
 

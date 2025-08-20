@@ -1,4 +1,4 @@
-## Install SAP Mobile Start
+## 3. Install SAP Mobile Start
 
 You can install SAP Mobile Start directly via the App Store or Google Store, or within your SAP Site. To install within your SAP Site, follow the below steps. 
 
