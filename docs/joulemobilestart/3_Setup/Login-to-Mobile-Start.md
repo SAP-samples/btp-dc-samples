@@ -10,6 +10,8 @@ Once you install the SAP Mobile Start application, launch it, select **Register*
 
 - This completes the setup of Joule with SAP Build Work Zone and using Joule with SAP Mobile Start.
 
-![Mob start application](images/16.png)
+<p align="center"> 
+<img src="images/16.png"> 
+</p>
 
 **<p align="center"> Image 2 </p>**

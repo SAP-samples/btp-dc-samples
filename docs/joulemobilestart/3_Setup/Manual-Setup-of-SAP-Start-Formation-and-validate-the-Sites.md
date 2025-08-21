@@ -10,7 +10,10 @@ SAP BTP offers a Booster to activate SAP Start, but this is only applicable when
 
 - In the **Create Formation page**, input the **Formation Name** (ideally a similar name to your Joule subaccount where you are activating SAP Start), select the **Formation Type** – Integration with SAP Start as shown below, and click on **Next Step**.
 
-![Create formation](images/3.png)
+<br>
+<p align="center"> 
+<img src="images/3.png"> 
+</p>
 
 **<p align="center"> Image 2 </p>**
 
