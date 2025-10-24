@@ -1,11 +1,11 @@
 # Setup SAP Build Code for Trial Accounts
 
 ## Prerequisites
-- You have an SAP BTP Trial Account. A trial account is pre-entitled to use the servies SAP Build Code and SAP Business Application Studio.
+- You have an SAP BTP Trial Account. A trial account is entitled to use the services SAP Build Code and SAP Business Application Studio.
 
 ## About this guide
 
-You will run the "Booster" **Get Started with SAP Build Code**, susbcribe your trial subaccount to SAP Build Code and access the Build Code Lobby.
+You will run the "Booster" **Get Started with SAP Build Code**, subscribe your trial subaccount to SAP Build Code, and access the Build Code Lobby.
 
 
 ### Open your SAP BTP Trial Account 
@@ -32,7 +32,7 @@ SAP Business Technology Platform provides interactive guided boosters to automat
 
 Select booster **Get Started with SAP Build Code** to automatically assign entitlements, update your subaccount (or create a new one), create a service instance, subscribe to and access the Build Code UI.
 
-1. On the navigation side bar, click **Boosters**.
+1. On the navigation sidebar, click **Boosters**.
 
     Search for **Build Code** and "Start" the Booster.
 
@@ -42,13 +42,13 @@ Select booster **Get Started with SAP Build Code** to automatically assign entit
 
     ![Booster Components](images_trial/bc_trial_04_check_comp.png)
 
-3. The Booster will excute immediately.
+3. The Booster will execute immediately.
 
     ![Booster Step 1](images_trial/bc_trial_05_booster_execute.png)
 
 4. When the booster has finished, the **Success** dialog box will appear.
 
-    Click **Navigate to Subaccount** on the success popup.
+    Click **Navigate to Subaccount** on the success pop-up.
 
     ![Success](images_trial/bc_trial_06_success.png)
 
