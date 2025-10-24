@@ -8,7 +8,7 @@ Make sure you have the entitlement for the Service [SAP Build Code](https://disc
 
 ## Prerequisites
 - You have an Enterprise Account on SAP BTP.  
-- You are entitled to use the Build Code service with free Service Plan.
+- You are entitled to use the Build Code service with a free Service Plan.
 
 
 ## You will learn
@@ -27,7 +27,7 @@ Make sure you have the entitlement for the Service [SAP Build Code](https://disc
 
    ![Access Global account](images/00_bc_free_ga.png)
 
-3. Make sure you are entitled to use the Build Code service with free Service Plan.
+3. Make sure you are entitled to use the Build Code service with a free Service Plan.
 
     ![Entitlement for Free Service Plan](images/00_bc_free_entitlement.png)
 
@@ -39,7 +39,7 @@ SAP Business Technology Platform provides interactive guided boosters to automat
 
 Select booster **Set up account for Build Code (Free Plan)** to automatically assign entitlements, update your subaccount (or create a new one), create a service instance, subscribe to and access the Build Code UI.
 
-1. On the navigation side bar, click **Boosters**.
+1. On the navigation sidebar, click **Boosters**.
 
     Search for **Build Code** and click the tile to access the booster.
 
@@ -51,13 +51,13 @@ Select booster **Set up account for Build Code (Free Plan)** to automatically as
 
 3. Booster Step 1: 
 
-    The booster checks if the necessary entitlements for Build Code are available and free in the Global Account and you have the authorization to create Subaccounts and Services. 
+    The booster checks if the necessary entitlements for Build Code are available and free in the Global Account, and you have the authorization to create Subaccounts and Services. 
 
     The result must be "All required prerequisites are met":
 
     ![Booster Step 1](images/02_freebooster_step1_passed.png)
 
-    In case you miss the prerequisites, the booster will inform you. For example about missing entitlements.
+    In case you miss the prerequisites, the booster will inform you. For example, about missing entitlements.
 
     
 
@@ -104,7 +104,7 @@ Select booster **Set up account for Build Code (Free Plan)** to automatically as
     ![Booster Step 5](images/06_freebooster_step5.png)
 
 
-8.  The booster will start to run and a progress popup will appear:
+8.  The booster will start to run, and a progress pop-up will appear:
 
     ![Booster Progress](images/07_freebooster_progress.png)
 
@@ -113,7 +113,7 @@ Select booster **Set up account for Build Code (Free Plan)** to automatically as
 
     ![Success](images/08_freebooster_navigate.png)
 
-    Click **Navigate to Subaccount** on the success popup.
+    Click **Navigate to Subaccount** on the success pop-up.
  
 10. You will be forwarded to the Build Code application:
    
