@@ -1,6 +1,6 @@
 # Create a Maintenance Notifications App with SAP Build Code
 
-Part 1, create the initial application.
+Part 1: Create the initial application.
 
 ### Create a Full-Stack Application Project from the Lobby
 
@@ -20,17 +20,17 @@ Part 1, create the initial application.
 
     ![](images_lobby/033_lobby_2_app.png)
 
-5. Choose "Full-Stack Node.JS".
+5. Choose "Full-Stack Node.js".
 
     ![](images_lobby/034_lobby_3_fullstack.png)
 
-6. Provide Name, e.g. "MaintenanceApp". Keep the Full_Stack Dev Space.
+6. Provide Name, e.g., "MaintenanceApp". Keep the Full_Stack Dev Space.
 
     Choose "Review" and create the project.
 
     ![](images_lobby/035_lobby_4_name.png)
 
-7. The Project MaintenanceApp will be created, this takes a minute.
+7. The Project MaintenanceApp will be created; this takes a minute.
 
     ![](images_lobby/036_lobby_pending_creation.png)
 
@@ -38,7 +38,7 @@ Part 1, create the initial application.
 
     ![](images_lobby/037_lobby_enter_project.png)
 
-### Create the Mainatenance Notification App
+### Create the Maintenance Notification App
 
 1. In the Studio, click the Joule icon and open the Joule Code Assistant.
 
@@ -55,7 +55,7 @@ Part 1, create the initial application.
     
     ![](images_lobby/040_bas_command.png)
 
-4. Joule Code Assistand will generate an inital app.
+4. Joule Code Assistant will generate an initial app.
 
     Review the code and "accept" it.
 
@@ -68,13 +68,15 @@ Part 1, create the initial application.
 
 ### Optional: Test your new basic application
 
-Also the project does not yet has a data source and a UI, you can already test it.
+Also, the project does not yet have a data source and a UI, you can already test it.
 
-1. Start the project either from "Run Configurations" on the left panel or from the small icon on the top right. It will take some seconds to start it.
+1. Start the project by clicking "Run Configurations" on the left panel or the small icon at the top right. It will take a few seconds to start.
 
     ![](images_lobby/044_bas_run_test.png)
 
-2. Once started, a new browser window opens. You can check service details and metadata. Click the "view in table" icon in "Services".
+2. Once started, a new browser window opens. Optionally, check service details and metadata. 
+
+    Click the "view in table" icon in "Services".
 
     ![](images_lobby/045_bas_test_view_as_table.png)
 
@@ -90,7 +92,7 @@ Also the project does not yet has a data source and a UI, you can already test i
 
 5. Go back to the List View and see the new data set.
 
-   You have now an idea how the application works.
+   You now have an idea how the application works.
 
     ![](images_lobby/048_bas_test_result.png)
 
