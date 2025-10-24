@@ -1,22 +1,9 @@
-<!---
-parser: v2
-auto_validation: true
-time: 5
-tags: [tutorial>beginner, topic>machine-learning, topic>artificial-intelligence, topic>cloud, software-product>sap-business-technology-platform, tutorial>free-tier]
-primary_tag: topic>machine-learning
-author_name: Oliver Stiefbold
--->
-
-
-
 # Setup SAP Build Code for Enterprise Accounts
 
 <!-- description --> Use the SAP BTP booster "Get Started with SAP Build Code" to create a service instance of Build Code and Business Application Studio.
 
 Make sure you have the entitlement for the Service [SAP Build Code](https://discovery-center.cloud.sap/serviceCatalog/sap-build-code?region=all&service_plan=standard&commercialModel=cloud), [SAP Business Application Studio](https://discovery-center.cloud.sap/serviceCatalog/business-application-studio?region=all), [SAP Build Work Zone, standard edition](https://discovery-center.cloud.sap/serviceCatalog/sap-build-work-zone-standard-edition?region=all) and Cloud Foundry Runtime, if you want to deploy your appplications to CF.
 
-
-Setting up a Trial Account is similar, but is covered in the previous tutorial.
 
 
 ## Prerequisites
