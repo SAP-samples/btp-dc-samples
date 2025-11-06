@@ -1,19 +1,20 @@
 # Optional: Set up SAP Build Work Zone Service
 
-SAP Build Work Zone enables you to easily create business sites that provide centralized access to applications from your projects.
+SAP Build Work Zone enables you to easily create business sites that provide centralized access to applications from your projects. It can be enabled to provide a central Joule Instance, which can run your custom Joule Skills.
 
 ## Prerequisites
 
-You need an entitlement for SAP SAP Build Work Zone, standard edition service in your Global Account
+You need an entitlement for the SAP SAP Build Work Zone, standard edition (or advanced edition) service in your Global Account.
 
 You need a Cloud Identity Services tenant (Identity and Authentication service, IAS). If you don't have one, create one first. If you need help creating one, see the Discovery Center mission [Get Started with SAP BTP—Cloud Identity Service Provider](https://discovery-center.cloud.sap/missiondetail/4325/4605/).
+
+In your Subaccount, Trust must be established with your Cloud Identity Services tenant.
 
    
 
 
 ### Check and Set your Subaccount Entitlements
 
-In case you run the commercial model "subscription you might need to entitle your Subaccount.
 
 Note: You can only entitle your Subaccount if you are entitled to the SAP Build Work Zone in your Global Account.
 
@@ -23,19 +24,20 @@ Note: You can only entitle your Subaccount if you are entitled to the SAP Build 
 
     If your Subaccount is not entitled yet, select "Edit" --> "Add Service Plans"
 
-    ![](images/2_setup_workzone_01_add.png)
+    ![](images_22_wz/2_setup_workzone_01_add.png)
 
 2. Search for "Studio", select SAP Build Work Zone, and add your required service plans.
 
     Select "Add ... Service Plans".
 
-    ![](images/2_setup_workzone_02_plans.png)
+    ![](images_22_wz/2_setup_workzone_02_plans.png)
 
 3. You are entitled to use SAP Build Work Zone in your Subaccount.
 
     Do not forget to **Save**.
 
-    ![](images/2_setup_workzone_03_result.png)
+    ![](images_22_wz/2_setup_workzone_03_result.png)
+   
 
 ### Check your Trust Configuration
 
@@ -51,61 +53,64 @@ Your subaccount should already have a trust configuration from the previous boos
 
     The "Custom IAS tenant" (or any other name for your custom IAS) is the identity provider for your SAP Build Work Zone service.
 
-    ![](images/processa_booster_09_trust.png)
+    Note that, in this case, the Default and Custom Identity Providers are "Available for User Logon", which means you can use either to access SAP Build Work Zone.
+
+    ![](images_20_subacc/subacc_trust_04_established.png)
 
 
 
 ### Subscribe to the SAP Build Work Zone Service
 
 
-
 1. Log into your trial subaccount, navigate to "Services" --> "Instances and Subscriptions," and choose "Create."
 
-    ![](images/2_setup_workzone_10_create.png)
+    ![](images_22_wz/2_setup_workzone_10_create.png)
 
 2. Select "SAP Build Work Zone, standard edition" as the Service and select "Subscription" as the service plan.
 
-    ![](images/2_setup_workzone_11_create.png)
+    ![](images_22_wz/2_setup_workzone_11_create.png)
 
 3. The Subscription for SAP Build Work Zone will be created.
 
     This takes a minute for this service.
 
-    ![](images/2_setup_workzone_12_create.png)
+    ![](images_22_wz/2_setup_workzone_12_create.png)
 
-4. Click on the Build Work Zone Subscription or on "Go to Application". 
+4. Optional:
 
-    A new window will open with "Access Denied". 
+    Click on "Build Work Zone Subscription" or "Go to Application". 
+
+    A new window will open with the message "Access Denied". 
     
-    You need to add the missing Role Collection "Launchpad_Admin" to your user. 
+    You need to add the missing Role Collection "Launchpad_Admin" to your user first. 
 
-    The required role collections have already been created with the subscription to the Launchpad Service.
+    The required role collections have already been created as part of the subscription to the Launchpad Service.
 
-5. In the left-handed navigation pane of the BTP Cockpit, navigate to **Security --> Users**and click on users.
+5. In the left-handed navigation pane of the BTP Cockpit, navigate to **Security --> Users** and click on "**Users**".
 
-    In this mission, you will see your own user twice:
-    One with "Default Identity Provider," the Provider from the BTP platform used for the Subaccount Administrator.
+    If you have established Trust to a Custom Identity Provider, you will see your own user twice:
+    One with the "Default Identity Provider," which is the Provider from the BTP platform used for the Subaccount Administrator.
     And one with "Custom IAS tenant" (or any other name for your custom IAS), the identity provider for your SAP Build Work Zone service.
 
-    Click on your user with Custom IAS (you can also additionally add the Role collection to your platform user)
+    Click on the user(s) you want to use to access SAP Build Workzone. 
 
-7. Click on "Assign Role Collection".
+    Click on "Assign Role Collection".
 
-    ![](images/2_setup_workzone_13_rolec.png)
+    ![](images_22_wz/2_setup_workzone_13_rolec.png)
 
-8. Assign at least the Role Collection **Launchpad_Admin** and click "Save".
+6. Assign at least the Role Collection **Launchpad_Admin** and click "Save".
 
-    ![](images/2_setup_workzone_14_assign.png)
+    ![](images_22_wz/2_setup_workzone_14_assign.png)
 
 9. Go back to "Services" --> Instances and Subscriptions" and click "SAP Build Work Zone, standard edition" again. 
 
-    The browser may still cache old authorization information. In this case, log out, or close and reopen your browser.
+    The browser may still cache old authorization information. In this case, log out first, or close and reopen your browser.
 
-    You have to authenticate with your Custom IAS user.
+    You must authenticate with your user account, which must be available for Business User Logon.
 
     The Work Zone Site Manager should now open. 
 
-    ![](images/2_setup_workzone_15_site.png)
+    ![](images_22_wz/2_setup_workzone_15_site.png)
 
 
 ### Optional: Activate Joule in SAP Build Work Zone 
@@ -113,19 +118,19 @@ Your subaccount should already have a trust configuration from the previous boos
 If you have the Joule Service installed, you can activate Joule in Work Zone.
 It can be used for Joule Digital Assistant in shared environments.
 
-1. Create a "Test Site" in Work Zone Site Manger.
+1. Create a "Test Site" in Work Zone Site Manager.
 
 2. Enter the "Site Settings" of your Test Site. 
 
-    ![](images/2_setup_workzone_20_sitesettings.png)
+    ![](images_22_wz/2_setup_workzone_20_sitesettings.png)
 
 3. Choose "Edit in your Site Settings and switch the Joule slider.
 
-    ![](images/2_setup_workzone_21_joulesettings.png)
+    ![](images_22_wz/2_setup_workzone_21_joulesettings.png)
 
-4. As a result Joule is enabled in your Site (see Joule icon).
+4. As a result, Joule is enabled in your Site (see Joule icon).
 
-    ![](images/2_setup_workzone_22_joule.png)
+    ![](images_22_wz/2_setup_workzone_22_joule.png)
 
 
 
