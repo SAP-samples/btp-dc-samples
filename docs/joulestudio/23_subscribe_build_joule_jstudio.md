@@ -1,4 +1,4 @@
-# Sunscribe Joule for Joule Studio
+# Subscribe Joule for Joule Studio
 
 Joule Studio is a capability in SAP Build that enables organizations to create and deploy custom Joule agents and skills, automating workflows and enhancing efficiency across both SAP and non-SAP systems.
 
