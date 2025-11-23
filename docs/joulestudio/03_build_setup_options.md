@@ -27,6 +27,3 @@ For more information, see [SAP Help Portal, Boosters](https://help.sap.com/docs/
 
 This mission includes a tutorial that guides you through setting up SAP Build for Joule Studio with standalone services.
 
-### Option 3: Subscribe to Standalone SAP Build Services manually
-
-This mission includes a tutorial that helps you manually subscribe to SAP Build Process Automation, SAP Build Work Zone, and Joule to set up your Joule Studio.
