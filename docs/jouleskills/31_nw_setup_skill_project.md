@@ -267,15 +267,15 @@ You will call in your Joule skill OData services. In Joule Skills, you must firs
 
 5. You see, Joule decided not to show the phone number. You can also tell Joule to show it. But it may drop other not "required" values.
 
-     [alt text](images_skills/jskill_21_test_customers3.png) 
+   ![alt text](images_skills/jskill_21_test_customers3.png) 
 
 6. You can determine the behavior of Joule, which outputs to generate. 
 
-    You can add additional Output Parameters, which Joule should always generate and map them to the result set of the action service.
+   You can add additional Output Parameters, which Joule should always generate and map them to the result set of the action service.
 
-    Or you can switch off "Allow Joule to generate a response". You will then need to create a response message yourself in an additional "Send Response" step (creating a "Send Response" step is not covered in this tutorial).
+   Or you can switch off "Allow Joule to generate a response". You will then need to create a response message yourself in an additional "Send Response" step (creating a "Send Response" step is not covered in this tutorial).
 
-    ![alt text](images_skills/jskill_22_switchoffautomaticresponse.png) 
+   ![alt text](images_skills/jskill_22_switchoffautomaticresponse.png) 
 
 Congrats. You just ran your first Joule Skill.
 
