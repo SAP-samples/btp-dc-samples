@@ -1,4 +1,4 @@
-# Create a Joule Agent
+# Create a basic Joule Agent
 
 
 Create a Joule agent in Joule Studio by defining expertise and instructions to optimize the Agent's performance.
@@ -11,7 +11,7 @@ You've created any Joule skills that you will use in your Agent.
 The agent builder is supported in the following data centers:
 US30, US21, US10, JP10, EU30, EU20, EU12, EU10, AP11, AP10
 
-You have created BTP destinations for remote MCP Servers that you want to use. For example, an entry for DeepWiki would be this:
+Optional: You have created BTP destinations for remote MCP Servers that you want to use. For example, an entry for DeepWiki would be this:
 
 ```
 
