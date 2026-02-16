@@ -2,7 +2,7 @@
 
 The next step is to add a UI application to create and edit BTP notifications, and to list existing ones. 
 
-For this, a new SAP Fiori Elements application with a List Report and Object Page floor plan will be created. This template-based app-creation approach fits well with this requirement and provides rich, standard functionality out of the box while adhering to the latest SAP Fiori-based UX.
+SAP Build Code will use the **SAP Fiori Elements** UI applications. AP Fiori Elements offers a template-based app-creation approach and provides rich functionality out of the box while adhering to the latest SAP Fiori-based UX standards.
 
 #### Procedure
 
@@ -42,3 +42,34 @@ For this, a new SAP Fiori Elements application with a List Report and Object Pag
    Click "Finish".
   
    image
+
+
+7. The UI generation takes a couple of seconds, and the UI application will be added to the storyboard.
+   After creation, the Page Map opens. You  see two pages: A List Report and an Object Page, and their properties.
+
+   image.
+
+
+### Adjust the UI Application
+
+The record number will be created by the backend and retrieved by the CAP Service. 
+
+The user must add the number manually in an input field of the new UI application.
+
+Therefore, a modification to make the Record Number field read-only is required.
+
+1. Select the Object Page and click on the pencil icon to configure the page
+
+    image
+   
+2. Expand "Sections" --> "General Information" --> "Form" --> "Fields".
+   
+   Click on "Record Number". In the side menu, search for the Annotation "Restrictions".
+
+   Select **Read Only**.
+
+   image.
+
+
+
+
