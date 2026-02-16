@@ -33,7 +33,7 @@ The next step is to add logic that creates a new maintenance notification whenev
 
 2. A dialog box will appear. Keep the prefilled values and choose "Add".
 
-![](images_lobby/061_bas_add_2.png)
+    ![](images_lobby/061_bas_add_2.png)
 
 3. In the configuration screen, in the section "Phase", select "Before" Event.
 
