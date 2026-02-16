@@ -4,7 +4,7 @@ Part 1: Create the initial application.
 
 ### Create a Full-Stack Application Project from the Lobby
 
-1. From your Subaccount open Services --> Instances and Subscription and start "SAP Build Code" (in this picture you see a trial account, which uses a "free" SAP Build Code Service Plan).
+1. From your Subaccount, open Services --> Instances and Subscription and start "SAP Build Code" (in this picture, you see a trial account, which uses a "free" SAP Build Code Service Plan).
 
    ![](images_lobby/030_lobby_start_build_code.png)
 
@@ -50,25 +50,27 @@ Part 1: Create the initial application.
 
 3. Enter this command in Joule using natural language and run it:
 
-    ```/cap-gen-app Create a maintenance notification app which contains a problem description and a number of the record, both should be strings.```
+    ```
+    /cap-gen-app Create a maintenance notification app that contains a problem description and the record number, both of which should be strings.
+    ```
 
     
     ![](images_lobby/040_bas_command.png)
 
-4. Joule Code Assistant will generate an initial app.
+5. Joule Code Assistant will generate an initial app.
 
     Review the code and "accept" it.
 
     ![](images_lobby/041_bas_joule_accept.png)
 
-5. Once accepted, the generated code block will be applied to the project.
+6. Once accepted, the generated code block will be applied to the project.
 
     ![](images_lobby/042_bas_joule_result.png)
 
 
 ### Optional: Test your new basic application
 
-Also, the project does not yet have a data source and a UI, you can already test it.
+Also, the project does not yet have a data source and a UI, but you can already test it.
 
 1. Start the project by clicking "Run Configurations" on the left panel or the small icon at the top right. It will take a few seconds to start.
 
@@ -92,7 +94,7 @@ Also, the project does not yet have a data source and a UI, you can already test
 
 5. Go back to the List View and see the new data set.
 
-   You now have an idea how the application works.
+   You now have an idea of how the application works.
 
     ![](images_lobby/048_bas_test_result.png)
 
