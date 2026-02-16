@@ -23,7 +23,7 @@ You can now connect your S/4HANA Cloud backend to your application.
 
 ### Add Logic to your Application Service
 
-The next step is to add the logic to create a new maintenance notification every time a notification is created on the SAP BTP. For this, we will create a new CAP handler, which is invoked before a new notification is created in CAP.
+The next step is to add logic that creates a new maintenance notification whenever a notification is created in SAP BTP. For this, we will create a new CAP handler, which is invoked before a new notification is created in CAP.
 
 
 
@@ -43,15 +43,17 @@ The next step is to add the logic to create a new maintenance notification every
 
 4. Click "Open Code Editor". This will open a dialog box. Select Application Logic.
 
-    The maintenancenotification-logic.js tab will open.
+    The "maintenancenotification-logic.js" tab will open.
 
-    Go to Joule to ask for creating a new maintenance notification with backend data and create a new record number. Enter this prompt:
+    Go to Joule to create a new maintenance notification with backend data and assign a new record number. Enter this prompt:
 
-    ```/cap-app-logic #srv/code/maintenancenotifications-logic.js For each new notification create also a new Maintenance Notification, connecting to and then calling the external service. The Maintenance Notification should have a notification type of ‘M1’ and its notification text should be the problem description of the notification. Update the notification’s record number from the MaintenanceNotification field of the new Maintenance Notification.```
+    ```
+    /cap-app-logic #srv/code/maintenancenotifications-logic.js For each new notification, create a new Maintenance Notification, connect to the external service, and then call it. The Maintenance Notification should have a notification type of "M1", and its notification text should be the problem description. Update the notification’s record number from the MaintenanceNotification field of the new Maintenance Notification.
+    ```
 
 
     ![](images_lobby/063_bas_applogic_joule.png)
 
-5. Joule Code Assistant will create a proposal. Review the generated code. To apply the code, click "Accept". The code will be applied to maintenancenotification-logic.js
+6. Joule Code Assistant will create a proposal. Review the generated code. To apply the code, click "Accept". The code will be applied to maintenancenotification-logic.js
 
 You created the application logic.
